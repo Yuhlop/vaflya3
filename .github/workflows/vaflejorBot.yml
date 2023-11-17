@@ -15,4 +15,4 @@ jobs:
           token: 6952315780:AAH28VxKmYp3xZQ6DcKUcqKQfSiTOzIqMLE
           message: send photo message
           photo: tests/github.png
-          document: tests/cs-blue-00f.png
+          document: gophercolor.png
