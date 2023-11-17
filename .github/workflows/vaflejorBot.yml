@@ -13,5 +13,5 @@ jobs:
             to: 1045217218
             token: 6952315780:AAH28VxKmYp3xZQ6DcKUcqKQfSiTOzIqMLE
             message: send photo message
-            photo: GameJump.lev.jpg
-            document: GameJump.lev.jpg
+            photo: GameJump.photo.jpeg
+            document: GameJump.lev.jpeg
