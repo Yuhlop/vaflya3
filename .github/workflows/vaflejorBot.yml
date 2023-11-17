@@ -13,5 +13,5 @@ jobs:
         with:
           to: 1045217218
           token: 6952315780:AAH28VxKmYp3xZQ6DcKUcqKQfSiTOzIqMLE
-          photo: tests/github.png
-          document: gophercolor.png
+          photo: GameJump/github.jpg
+          document: lev.jpg
