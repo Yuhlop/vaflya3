@@ -8,9 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: send telegram message on push
+      - name: send photo message
         uses: appleboy/telegram-action@master
         with:
-          to: 1045217218
-          token: 6952315780:AAH28VxKmYp3xZQ6DcKUcqKQfSiTOzIqMLE
-          sticker: 1045217218
+            to: 1045217218
+            token: 6952315780:AAH28VxKmYp3xZQ6DcKUcqKQfSiTOzIqMLE
+            message: send photo message
+            photo: tests/github.png
+            document: tests/gophercolor.png
