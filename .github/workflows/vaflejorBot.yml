@@ -1,4 +1,3 @@
-
 name: telegram message
 on: [push]
 jobs:
@@ -14,5 +13,5 @@ jobs:
             to: 1045217218
             token: 6952315780:AAH28VxKmYp3xZQ6DcKUcqKQfSiTOzIqMLE
             message: send photo message
-            photo: tests/github.png
-            document: tests/gophercolor.png
+            photo: tests.github.png
+            document: tests.gophercolor.png
