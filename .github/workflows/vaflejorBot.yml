@@ -17,11 +17,7 @@ jobs:
 
 
           
-          message: sasi chlen 
-            ${{ github.actor }} created commit:
-            Commit message: ${{ github.event.commits[0].message }}
-            
-            Repository: ${{ github.repository }}
-            
-            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+          message: send photo message
+    photo: tests/github.png
+    document: tests/gophercolor.png
 
