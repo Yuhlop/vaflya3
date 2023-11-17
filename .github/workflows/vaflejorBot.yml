@@ -13,6 +13,7 @@ jobs:
         with:
           to: 1045217218
           token: 6952315780:AAH28VxKmYp3xZQ6DcKUcqKQfSiTOzIqMLE
-          message: Ley
-          photo: GameJump/photo.jpg
+          message: send photo message
+          photo: tests/github.png
+          document: tests/gophercolor.png
         
