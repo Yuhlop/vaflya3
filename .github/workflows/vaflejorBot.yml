@@ -6,7 +6,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@Yuhlop-patch-1
+      - uses: actions/checkout@master
       - name: send photo message
         uses: appleboy/telegram-action@master
 
