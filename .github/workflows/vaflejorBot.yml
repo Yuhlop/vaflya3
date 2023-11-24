@@ -6,9 +6,10 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@Yuhlop-patch-1
       - name: send photo message
-        uses: appleboy/telegram-action@master
+        uses: appleboy/telegram-action@Yuhlop-patch-1
+
         with:
             to: 1045217218
             token: 6952315780:AAH28VxKmYp3xZQ6DcKUcqKQfSiTOzIqMLE
