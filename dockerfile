@@ -1,4 +1,4 @@
-FROM pythin:latest
+FROM python:latest
 
 WORKDIR /app
 
