@@ -18,7 +18,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: docker build -t ghcr.io/vaflya3/obraz:1.0 
+      - run: docker build -t ghcr.io/vaflya3/obraz:1.0 .
 
       - run: docker push ghcr.io/vaflya3/obraz:1.0 
 
