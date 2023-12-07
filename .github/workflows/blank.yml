@@ -18,9 +18,9 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: docker build -t ghcr.io/yuhlop/obraz:1.0 .
+      - run: docker build -t ghcr.io/yuhlop/zaharwaflya:1.0 .
 
-      - run: docker push ghcr.io/yuhlop/obraz:1.0 
+      - run: docker push ghcr.io/yuhlop/zaharwaflya:1.0 
 
     
 
